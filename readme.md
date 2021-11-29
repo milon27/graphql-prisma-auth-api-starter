@@ -16,7 +16,7 @@
 
 ___
 
-```json
+```js
 #login
 
 query {
@@ -29,7 +29,7 @@ query {
 }
 ```
 
-```json
+```js
 #signUp
 
 mutation {
@@ -41,7 +41,7 @@ mutation {
 }
 ```
 
-```json
+```js
 #logout
 
 query {
@@ -49,7 +49,7 @@ query {
 }
 ```
 
-```json
+```js
 #private route
 
 query{
