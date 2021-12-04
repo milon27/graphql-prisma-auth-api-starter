@@ -2,6 +2,7 @@ import { shield } from "graphql-shield"
 import { isAuthenticated, isPublic } from "./rule"
 
 const Permissions = shield({
+    User: isPublic,
     Query: {
         login: isPublic
     },
