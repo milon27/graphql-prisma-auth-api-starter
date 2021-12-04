@@ -9,7 +9,10 @@ const Permissions = shield({
     Mutation: {
         signUp: isPublic
     }
-}, { fallbackRule: isAuthenticated })
+}, { 
+    fallbackRule: isAuthenticated,
+     allowExternalErrors: true
+})
 
 export default Permissions
 
